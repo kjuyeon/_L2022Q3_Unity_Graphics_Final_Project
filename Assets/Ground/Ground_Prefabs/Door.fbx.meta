@@ -1,8 +1,35 @@
 fileFormatVersion: 2
-guid: 22ef7510500acc240a71b651e415f84c
+guid: c893621663af3574cb5552240e307ba6
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -1438433368569988972
+    second: Plane.001|Door
+  - first:
+      74: -696483910594231498
+    second: Plane.001|End pin
+  - first:
+      74: 7745931256872451417
+    second: Plane.001|Grip
+  - first:
+      74: -6665196413822935770
+    second: Plane.003|Door
+  - first:
+      74: 6801091674512887286
+    second: Plane.003|End pin
+  - first:
+      74: -8487721355046499982
+    second: Plane.003|Grip
+  - first:
+      74: -4156750281608560649
+    second: Circle.002|Door
+  - first:
+      74: 4373383970916231835
+    second: Circle.002|End pin
+  - first:
+      74: 1463029397287846608
+    second: Circle.002|Grip
   externalObjects: {}
   materials:
     materialImportMode: 2
