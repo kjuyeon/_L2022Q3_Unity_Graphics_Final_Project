@@ -125,6 +125,7 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 --- !u!1 &5669705
@@ -459,6 +460,8 @@ MeshFilter:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of d02ef62 (Update Heaven.unity)
+=======
+>>>>>>> parent of d02ef62 (Update Heaven.unity)
 --- !u!1001 &27665183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -672,9 +675,12 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e73c147d7d510545a82332143682a2c, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 >>>>>>> parent of 0df96ac (.)
+=======
+>>>>>>> parent of d02ef62 (Update Heaven.unity)
 =======
 >>>>>>> parent of d02ef62 (Update Heaven.unity)
 --- !u!1001 &95617386
@@ -748,7 +754,10 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> parent of d02ef62 (Update Heaven.unity)
 =======
 >>>>>>> parent of d02ef62 (Update Heaven.unity)
 --- !u!1001 &130249012
@@ -3465,6 +3474,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!4 &2113003654
 Transform:
@@ -3576,6 +3586,8 @@ Transform:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of 0df96ac (.)
+=======
+>>>>>>> parent of d02ef62 (Update Heaven.unity)
 =======
 >>>>>>> parent of d02ef62 (Update Heaven.unity)
 --- !u!1001 &2126493533
