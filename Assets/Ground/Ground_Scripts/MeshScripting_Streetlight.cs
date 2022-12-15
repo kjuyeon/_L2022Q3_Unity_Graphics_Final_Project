@@ -9,6 +9,12 @@ public class MeshScripting_Streetlight : MonoBehaviour
     int[] newTriangles;
     Vector3[] newNormals;
 
+    Vector2 UV0, UV1, UV2, UV3, UV4, UV5, UV6, UV7, UV8, UV9, UV10, UV11;
+        //UV4, UV5, UV6, UV7, UV8, UV9, UV10, UV11;
+    Vector2[] newUVs;
+
+    public Texture newTexture;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +30,21 @@ public class MeshScripting_Streetlight : MonoBehaviour
         V9 = new Vector3(1.25f, 4.8f, 0.25f);
         V10 = new Vector3(0.25f, 4.8f, 0.25f);
         V11 = new Vector3(0.25f, 4.8f, -0.25f);
+
+        UV0 = new Vector2(0, 0);
+        UV1 = new Vector2(0, 1);
+        UV2 = new Vector2(1, 1);
+        UV3 = new Vector2(1, 0);
+
+        UV4 = new Vector2(0, 0);
+        UV5 = new Vector2(0, 1);
+        UV6 = new Vector2(1, 1);
+        UV7 = new Vector2(1, 0);
+
+        UV8 = new Vector2(0, 0);
+        UV9 = new Vector2(0, 1);
+        UV10 = new Vector2(1, 1);
+        UV11 = new Vector2(1, 0);
 
         newVertices = new Vector3[]
         {
@@ -132,7 +153,36 @@ public class MeshScripting_Streetlight : MonoBehaviour
 
             Down, Down, Down, Down
 
-    };
+        };
+
+        newUVs = new Vector2[]
+        {
+            // Back
+            UV0, UV4, UV7, UV3, //0, 1, 2, 3
+            
+            // Right
+            UV3, UV7, UV6, UV2, //4, 5, 6, 7
+
+            // Front
+            UV2, UV6, UV5, UV1, //8, 9, 10, 11
+
+            // Left
+            UV1, UV5, UV4, UV0, //12, 13, 14, 15
+
+            // Top
+            UV4, UV5, UV6, UV7, //16, 17, 18, 19
+
+            // Bottom
+            UV0, UV1, UV2, UV3, //20, 21, 22, 23
+
+            UV7, UV6, UV9, UV8,
+
+            UV11, UV7, UV8,
+
+            UV10, UV6, UV9,
+
+            UV11, UV10, UV9, UV8
+        };
 
         gameObject.AddComponent<MeshFilter>();
         gameObject.AddComponent<MeshRenderer>();
@@ -142,11 +192,13 @@ public class MeshScripting_Streetlight : MonoBehaviour
         mesh.vertices = newVertices;
         mesh.triangles = newTriangles;
         mesh.normals = newNormals;
+        mesh.uv = newUVs;
 
         mesh.RecalculateBounds();
         mesh.Optimize();
         Shader DefaultShader = Shader.Find("Standard");
         Material DefaultMaterial = new Material(DefaultShader);
+        DefaultMaterial.mainTexture = newTexture;
         gameObject.GetComponent<Renderer>().material = DefaultMaterial;
 
     }
