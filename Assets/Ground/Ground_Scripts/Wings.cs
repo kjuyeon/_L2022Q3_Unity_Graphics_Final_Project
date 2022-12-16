@@ -25,7 +25,7 @@ public class Wings : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            print("play backwards");
+            print("play 2x");
 
             Anim.speed = 2.0f;
         }
