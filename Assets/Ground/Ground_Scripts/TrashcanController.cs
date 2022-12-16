@@ -5,6 +5,7 @@ using UnityEngine;
 public class TrashcanController : MonoBehaviour
 {   
     public GameObject Pivot;
+    public GameObject TrashcanPoint
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +16,6 @@ public class TrashcanController : MonoBehaviour
     private void OnMouseDown()
     {
         Pivot.GetComponent<Animator>().SetInteger("Can", 1);
-        Debug.Log("Clicked");
+        TrashcanPoint.SetActive(false);
     }
 }
