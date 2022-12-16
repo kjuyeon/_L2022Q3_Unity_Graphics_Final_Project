@@ -10,12 +10,12 @@ public class MeshScripting_Streetlight : MonoBehaviour
     Vector3[] newNormals;
 
     Vector2 UV0, UV1, UV2, UV3, UV4, UV5, UV6, UV7, UV8, UV9, UV10, UV11;
-        //UV4, UV5, UV6, UV7, UV8, UV9, UV10, UV11;
+
     Vector2[] newUVs;
 
     public Texture newTexture;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         V0 = new Vector3(-0.25f, -5f, -0.25f);
