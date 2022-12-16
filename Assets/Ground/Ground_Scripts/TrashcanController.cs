@@ -5,7 +5,7 @@ using UnityEngine;
 public class TrashcanController : MonoBehaviour
 {   
     public GameObject Pivot;
-    public GameObject TrashcanPoint
+    public GameObject TrashcanPoint;
 
     // Start is called before the first frame update
     void Start()
