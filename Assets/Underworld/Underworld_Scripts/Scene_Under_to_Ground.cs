@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadScene : MonoBehaviour
+public class Scene_Under_to_Ground : MonoBehaviour
 {
     public Object SceneToLoad;
     Scene CurrentScene;
