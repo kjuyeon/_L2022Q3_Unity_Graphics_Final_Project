@@ -27,7 +27,7 @@ public class Whale : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Anim.SetFloat("Dir", 2.0f);
+            Anim.SetFloat("Dir", 5.0f);
         }
 
         if (Input.GetKeyDown(KeyCode.S))
