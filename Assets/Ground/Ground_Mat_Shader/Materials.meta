@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Standard Assets.meta
+guid: b0647e2d969994db8bdfc04bd36ac0c6
+========
+guid: f871eca119a994bf692747e6cea73bbe
+>>>>>>>> ground:Assets/Ground/Ground_Mat_Shader/Materials.meta
+folderAsset: yes
+timeCreated: 1436977287
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

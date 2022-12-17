@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Standard Assets/Utility/AlphaButtonClickMask.cs.meta
+guid: 5b65bca6a706e499ebe202cd89e8d76b
+timeCreated: 1436868016
+licenseType: Store
+========
+guid: ba77b805981ede34f8780ceac338e470
+>>>>>>>> ground:Assets/Ground/Ground_Scripts/BoatController.cs.meta
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
