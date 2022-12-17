@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: e6053eb553bcca24fbffb4ffd5dcccb5
+<<<<<<<< HEAD:Assets/Scenes/Heaven.meta
+guid: 9d29e5f632a27834d898b33d4a5088cb
+========
+guid: 09be0e12b42224b8aaeb5f9ed2750783
+>>>>>>>> parent of 0df96ac (.):Assets/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
