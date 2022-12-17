@@ -43,8 +43,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+<<<<<<< HEAD
         // Use this for initialization
         private void Start()
+=======
+    // Use this for initialization
+    private void Start()
+>>>>>>> ground
         {
             m_CharacterController = GetComponent<CharacterController>();
             m_Camera = Camera.main;
@@ -56,7 +61,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+<<<<<<< HEAD
         }
+=======
+    }
+>>>>>>> ground
 
 
         // Update is called once per frame
